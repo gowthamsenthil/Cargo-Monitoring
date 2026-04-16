@@ -1,9 +1,8 @@
 # ALTA — Adaptive Logistics and Tracking Agent
 
-> Real-time agentic AI platform for pharmaceutical cold-chain monitoring, built by **Team Thunderbolts**.
+> Real-time agentic AI platform for pharmaceutical cold-chain monitoring
 
-🌐 **Live Demo:** [alta-logistics-agent.netlify.app](https://alta-logistics-agent.netlify.app)  
-🔌 **API:** [cargo-monitoring.onrender.com](https://cargo-monitoring.onrender.com)
+**Live Demo:** [alta-logistics-agent.netlify.app](https://alta-logistics-agent.netlify.app)  
 
 ---
 
@@ -154,7 +153,3 @@ OPENAI_BASE_URL=https://api.openai.com/v1
 ```
 
 ---
-
-## Team
-
-**Thunderbolts** — Built for Hackathon 2026
