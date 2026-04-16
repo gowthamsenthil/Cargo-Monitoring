@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #1F6F4A;
+  color: #e2e8f0;
+  overflow-x: hidden;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #175A3C; }
+::-webkit-scrollbar-thumb { background: #0F3D29; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #E7D7C1; }
+
+/* ── Map ── */
+.leaflet-container { background: #e8e0d8 !important; }
+.leaflet-tile-pane { filter: none; }
+
+/* ── Animations ── */
+@keyframes pulse-ring {
+  0%   { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.5); opacity: 0; }
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.3; }
+}
+.pulse-ring::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+  animation: pulse-ring 1.5s ease-out infinite;
+}
+.blink { animation: blink 1.2s ease-in-out infinite; }
+
+@keyframes slide-in-right {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+.slide-in { animation: slide-in-right 0.35s ease-out; }
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0);   }
+}
+.fade-in { animation: fade-in 0.4s ease-out; }
+
+/* ── Card surfaces ──────────────────────────────────────────────────
+   .glass      = white card floating on the green background
+   .glass-dark = dark-green panel (sidebar, header, modals)
+   ─────────────────────────────────────────────────────────────────── */
+.glass {
+  background: #FFFFFF;
+  border: 1px solid #E7D7C1;
+  box-shadow: 0 2px 10px rgba(15, 61, 41, 0.20), 0 1px 3px rgba(15, 61, 41, 0.12);
+}
+.glass-dark {
+  background: #175A3C;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 4px 12px rgba(10, 40, 27, 0.30);
+}
+
+/* ── Risk utilities ── */
+.risk-critical { color: #DC2626; }
+.risk-high     { color: #EA580C; }
+.risk-medium   { color: #D97706; }
+.risk-low      { color: #4ADE80; }
+
+.bg-risk-critical { background: rgba(220, 38,  38,  0.10); border-color: rgba(220, 38,  38,  0.28); }
+.bg-risk-high     { background: rgba(234, 88,  12,  0.10); border-color: rgba(234, 88,  12,  0.28); }
+.bg-risk-medium   { background: rgba(217, 119, 6,   0.10); border-color: rgba(217, 119, 6,   0.28); }
+.bg-risk-low      { background: rgba(74,  222, 128, 0.10); border-color: rgba(74,  222, 128, 0.30); }
+
+/* ── Agent thinking shimmer — green gradient ── */
+.agent-thinking {
+  background: linear-gradient(90deg, #175A3C 0%, #1F6F4A 50%, #175A3C 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   WHITE-CARD OVERRIDES  (scoped to .glass only)
+   The sidebar and header use .glass-dark = dark green → white text
+   is natural there. Inside white .glass cards the same classes need
+   to render as dark text / sand borders / subtle ghost bgs.
+   ════════════════════════════════════════════════════════════════════ */
+
+/* ── Text on white cards → dark ── */
+.glass .text-white     { color: #1C1C1C !important; }
+.glass .text-slate-100 { color: #1C1C1C !important; }
+.glass .text-slate-200 { color: #2A2A2A !important; }
+.glass .text-slate-300 { color: #374151 !important; }
+.glass .text-slate-400 { color: #374151 !important; }
+.glass .text-slate-500 { color: #4B5563 !important; }
+.glass .text-slate-600 { color: #6B7280 !important; }
+
+/* ── Text on dark-green panels → lightened for readability ── */
+.glass-dark .text-slate-400 { color: #cbd5e1 !important; }
+.glass-dark .text-slate-500 { color: #94a3b8 !important; }
+.glass-dark .text-slate-600 { color: #7c8fa3 !important; }
+
+/* ── Restore white text on solid coloured elements inside cards ── */
+.glass .bg-brand-600 .text-white,
+.glass .bg-brand-600.text-white,
+.glass .bg-red-500   .text-white,
+.glass .bg-red-500.text-white,
+.glass .bg-orange-500 .text-white,
+.glass .bg-orange-500.text-white { color: #FFFFFF !important; }
+
+/* ── Brand icons / active text inside white cards → primary green ── */
+.glass .text-brand-300,
+.glass .text-brand-400 { color: #1F6F4A !important; }
+
+/* ── Ghost backgrounds inside white cards → barely-there darks ── */
+.glass .bg-white\/5  { background-color: rgba(28, 28, 28, 0.03) !important; }
+.glass .bg-white\/8  { background-color: rgba(28, 28, 28, 0.04) !important; }
+.glass .bg-white\/10 { background-color: rgba(28, 28, 28, 0.05) !important; }
+.glass .bg-white\/15 { background-color: rgba(28, 28, 28, 0.06) !important; }
+.glass .bg-white\/20 { background-color: rgba(28, 28, 28, 0.08) !important; }
+.glass .bg-white\/25 { background-color: rgba(28, 28, 28, 0.09) !important; }
+
+/* ── White borders inside white cards → sand ── */
+.glass .border-white\/5  { border-color: rgba(231, 215, 193, 0.30) !important; }
+.glass .border-white\/6  { border-color: rgba(231, 215, 193, 0.40) !important; }
+.glass .border-white\/8  { border-color: #E7D7C1 !important; }
+.glass .border-white\/10 { border-color: #D4C4AE !important; }
+.glass .border-white\/15 { border-color: #C8B49E !important; }
+.glass .border-white\/20 { border-color: #BCA78E !important; }

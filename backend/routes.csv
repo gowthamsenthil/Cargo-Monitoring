@@ -1,0 +1,198 @@
+current_airport,destination_airport,flight_no,departure_time,arrival_time,transit_airport,cost,cargo_available,cold_storage_available,cold_storage_cost,delay_risk,notes,status
+FRA,SIN,LH778,Every 12h (10:30/22:30 UTC),12h45m,,4200,true,true,85,low,Direct Lufthansa Cargo P1 pharma priority lane IATA CEIV certified,available
+FRA,SIN,EK9212,Every 24h (15:00 UTC),14h30m,DXB,3800,true,true,75,medium,Emirates SkyCargo via Dubai 90min cold-chain transfer GDP compliant handler,available
+FRA,HKG,LH8400,Twice daily (09:00/21:00 UTC),11h20m,,3600,true,true,80,low,Direct Lufthansa Cargo dedicated pharma freighter IATA CEIV Pharma,available
+FRA,NRT,LH8100,Once daily (11:00 UTC),12h00m,,4800,true,true,90,low,Direct Frankfurt-Tokyo Lufthansa P1 pharma temperature-controlled ULD,available
+FRA,JFK,LH8900,Twice daily (08:00/18:00 UTC),8h30m,,3200,true,true,70,low,Direct transatlantic FAA-compliant pharma GDP certified,available
+FRA,LHR,LH4400,Every 2h (06:00-22:00 UTC),1h45m,,800,true,true,60,low,Short-haul shuttle frequent departures Heathrow World Cargo Centre,available
+FRA,DXB,LH8200,Twice daily (09:30/22:00 UTC),6h00m,,2100,true,true,78,low,Direct Frankfurt-Dubai Emirates partnership Pharma Hub at DXB,available
+FRA,BOM,LH8050,Once daily (22:00 UTC),8h45m,,3100,true,true,72,medium,Direct to Mumbai overnight freighter BOM pharma SEZ handling,available
+FRA,SYD,LH8700,Once daily (21:30 UTC),22h00m,SIN,6800,true,true,95,medium,Via Singapore 2h transfer SIN coolant replenishment at SIN,available
+FRA,ICN,LH8300,Once daily (14:00 UTC),11h00m,,4500,true,true,85,low,Direct Frankfurt-Seoul Korean Air partnership Incheon pharma hub,available
+FRA,GRU,LH8600,Once daily (21:00 UTC),13h00m,,4900,true,false,0,high,Direct to Sao Paulo limited cold chain at GRU dry ice only,limited
+FRA,AMS,LH4100,Every 90min,1h00m,,600,true,true,55,low,Shuttle to Schiphol AMS Pharma Hub full CEIV certified cold chain,available
+FRA,CDG,LH4200,Every 2h,1h15m,,650,true,true,57,low,Frankfurt-Paris shuttle Air France partnership CDG pharma zone,available
+FRA,NBO,LH8050,Once daily (20:00 UTC),8h00m,,3400,true,true,68,medium,Frankfurt-Nairobi overnight IATA DGR compliant,available
+FRA,JNB,LH8075,Once daily (21:30 UTC),10h30m,,4100,true,true,72,medium,Frankfurt-Johannesburg direct pharma cargo GDP compliant,available
+FRA,CAI,LH8020,Twice daily,4h30m,,1800,true,true,65,low,Frankfurt-Cairo EgyptAir partnership hub for Africa connections,available
+FRA,DOH,LH8030,Twice daily (10:00/22:00 UTC),5h00m,,1900,true,true,70,low,Frankfurt-Doha QR partnership Hamad pharma hub,available
+FRA,IST,LH4300,Every 4h,3h30m,,1400,true,true,68,low,Frankfurt-Istanbul Turkish Cargo partnership,available
+FRA,DEL,LH8060,Once daily (23:00 UTC),8h00m,,3000,true,true,75,medium,Frankfurt-Delhi overnight GDP compliant cold chain,available
+FRA,PVG,LH8380,Once daily (13:00 UTC),10h30m,,3900,true,true,82,low,Frankfurt-Shanghai direct pharma freighter,available
+AMS,SIN,KL886,Once daily (11:30 UTC),13h00m,,4400,true,true,82,low,Direct KLM Cargo IATA CEIV Pharma GDP-compliant P1 handling,available
+AMS,JFK,KL6020,Twice daily (09:00/15:00 UTC),7h30m,,3000,true,true,68,low,Direct transatlantic JFK cargo centre pharma zone,available
+AMS,NRT,KL862,Once daily (10:00 UTC),11h45m,,4700,true,true,88,low,Direct Amsterdam-Tokyo KLM pharma certified ULD temperature monitoring,available
+AMS,HKG,KL888,Once daily (22:30 UTC),11h30m,,3900,true,true,78,low,Overnight freighter Cathay Pacific partnership at HKG,available
+AMS,DXB,EK9100,Twice daily (08:00/20:00 UTC),7h00m,,2400,true,true,76,low,Emirates SkyCargo DXB Pharma Hub 1h ground transfer,available
+AMS,LHR,KL4100,Every 2h,1h15m,,750,true,true,58,low,Shuttle flights Heathrow pharma CEIV zone,available
+AMS,SYD,KL4780,Once daily (22:00 UTC),21h30m,SIN,7200,true,true,92,medium,Via Singapore 2h45m layover coolant top-up SIN,available
+AMS,GRU,KL706,Once daily (14:30 UTC),12h15m,,4800,true,false,0,medium,Direct no dedicated cold chain at GRU dry ice 48h advance,limited
+AMS,FRA,KL4300,Every 90min,1h00m,,600,true,true,55,low,Shuttle to Frankfurt CEIV Pharma hub full cold chain,available
+AMS,ICN,KL856,Once daily (11:00 UTC),11h30m,,4600,true,true,84,low,Amsterdam-Seoul direct KLM cargo pharma certified,available
+AMS,BOM,KL870,Once daily (21:00 UTC),9h00m,,3300,true,true,74,medium,Amsterdam-Mumbai direct GDP compliant cold chain,available
+AMS,NBO,KL565,Once daily (23:00 UTC),8h30m,,3200,true,true,70,medium,Amsterdam-Nairobi overnight UNICEF supply chain certified,available
+AMS,JNB,KL592,Once daily (22:30 UTC),11h00m,,4000,true,true,72,medium,Amsterdam-Johannesburg direct pharma cargo,available
+AMS,CAI,KL550,Twice daily,4h45m,,1900,true,true,65,low,Amsterdam-Cairo partner hub for ME-Africa connections,available
+AMS,DOH,KL380,Twice daily (09:00/21:00 UTC),5h30m,,2100,true,true,72,low,Amsterdam-Doha QR partnership,available
+AMS,DEL,KL872,Once daily (22:30 UTC),8h30m,,3200,true,true,76,medium,Amsterdam-Delhi overnight GDP compliant,available
+DXB,SIN,EK9354,Multiple daily (every 6h),7h30m,,2800,true,true,80,low,Emirates SkyCargo express SIN Coolport IATA CEIV Pharma,available
+DXB,HKG,EK9200,Every 8h,8h00m,,2600,true,true,75,low,Emirates SkyCargo HKG Hactl pharma cold chain,available
+DXB,NRT,EK9340,Twice daily (10:00/22:00 UTC),9h30m,,3800,true,true,85,low,Emirates to Narita temperature-controlled freighter Japanese customs priority,available
+DXB,BOM,EK9410,Every 4h,3h00m,,900,true,true,65,low,Short-haul multiple frequencies BOM SEZ pharma hub,available
+DXB,LHR,EK9600,Every 6h,7h15m,,2500,true,true,72,low,Dubai-London freighter Heathrow World Cargo Centre,available
+DXB,FRA,EK9700,Every 8h,6h30m,,2200,true,true,70,low,Dubai-Frankfurt Lufthansa partnership GDP certified,available
+DXB,JFK,EK9800,Once daily (01:00 UTC),14h00m,,4200,true,true,80,medium,Overnight transatlantic JFK pharma cold chain zone,available
+DXB,SYD,EK9900,Twice daily (02:00/14:00 UTC),14h00m,,5800,true,true,90,low,Direct Dubai-Sydney end-to-end cold chain Australian TGA handling,available
+DXB,ICN,EK9500,Once daily (03:00 UTC),9h00m,,3500,true,true,82,low,Dubai-Seoul Korean pharma import fast-track,available
+DXB,GRU,EK9250,Once daily (23:30 UTC),17h30m,,6500,true,false,0,high,Long-haul limited cold storage GRU requires advance dry ice,limited
+DXB,AMS,EK9710,Twice daily (06:00/18:00 UTC),7h00m,,2400,true,true,76,low,Dubai-Amsterdam KLM partnership Schiphol pharma hub,available
+DXB,CDG,EK9720,Twice daily (07:00/19:00 UTC),7h30m,,2600,true,true,74,low,Dubai-Paris CDG pharma zone Air France partnership,available
+DXB,NBO,EK9730,Twice daily (05:00/17:00 UTC),4h30m,,1500,true,true,68,low,Dubai-Nairobi East Africa pharma hub connections,available
+DXB,JNB,EK9740,Once daily (03:00 UTC),8h00m,,3000,true,true,70,medium,Dubai-Johannesburg direct SA pharma GDP,available
+DXB,CAI,EK9750,Every 4h,2h30m,,800,true,true,62,low,Dubai-Cairo very high frequency short-haul,available
+DXB,DOH,EK9760,Every 3h,1h00m,,400,true,true,58,low,Dubai-Doha shuttle QR partnership onward connections,available
+DXB,IST,EK9770,Every 6h,4h30m,,1700,true,true,68,low,Dubai-Istanbul Turkish Cargo partnership,available
+DXB,DEL,EK9780,Every 4h,3h30m,,1100,true,true,67,low,Dubai-Delhi Air India partnership GDP compliant,available
+DXB,PVG,EK9790,Once daily (02:00 UTC),8h00m,,3100,true,true,78,low,Dubai-Shanghai direct pharma freighter,available
+SIN,SYD,SQ7440,Every 4h,7h45m,,2800,true,true,78,low,Singapore-Sydney IATA CEIV Pharma Australian TGA pre-clearance,available
+SIN,HKG,SQ7200,Every 3h,3h30m,,1200,true,true,72,low,Short hop high frequency HKG Hactl GDP cold chain,available
+SIN,NRT,SQ7340,Twice daily (08:00/20:00 UTC),7h00m,,3200,true,true,85,low,Singapore-Tokyo JAL partnership Narita pharma cold chain,available
+SIN,ICN,SQ7420,Twice daily (07:00/19:00 UTC),6h30m,,2800,true,true,80,low,Singapore-Seoul temperature-controlled ULD,available
+SIN,JFK,SQ8000,Once daily (00:30 UTC),19h00m,,7200,true,true,92,medium,Ultra-long-haul coolant replenishment en route JFK pharma cold chain,available
+SIN,LHR,SQ7330,Once daily (23:45 UTC),14h00m,,5200,true,true,88,low,Singapore-London overnight GDP compliant Heathrow pharma CEIV,available
+SIN,FRA,SQ7310,Once daily (22:00 UTC),13h30m,,4800,true,true,85,low,Singapore-Frankfurt Lufthansa partnership,available
+SIN,BOM,SQ7410,Twice daily (06:00/18:00 UTC),5h00m,,1800,true,true,68,low,Singapore-Mumbai short-haul BOM cold chain,available
+SIN,DXB,SQ7380,Every 6h,6h30m,,2500,true,true,78,low,Singapore-Dubai Emirates partnership DXB Pharma Hub,available
+SIN,AMS,SQ7320,Once daily (23:30 UTC),13h00m,,4600,true,true,84,low,Singapore-Amsterdam KLM partnership Schiphol pharma hub,available
+SIN,GRU,SQ7500,Once daily (21:00 UTC),23h30m,JFK,8800,true,false,0,high,Via New York very long-haul GRU no cold chain advance dry ice,limited
+SIN,CAI,SQ7350,Once daily (01:00 UTC),9h00m,,3200,true,true,70,medium,Singapore-Cairo EgyptAir partnership,available
+SIN,NBO,SQ7360,Once daily (02:00 UTC),9h30m,,3400,true,true,72,medium,Singapore-Nairobi East Africa hub,available
+SIN,DEL,SQ7390,Twice daily (06:00/18:00 UTC),4h30m,,1700,true,true,72,low,Singapore-Delhi Air India partnership GDP compliant,available
+SIN,PVG,SQ7250,Every 4h,4h00m,,1600,true,true,74,low,Singapore-Shanghai direct high frequency,available
+HKG,SYD,CX7120,Twice daily (09:00/21:00 UTC),9h30m,,3400,true,true,82,low,Cathay Pacific Cargo dedicated pharma freighter TGA customs,available
+HKG,NRT,CX7220,Every 4h,4h00m,,1800,true,true,78,low,Short-haul HKG-NRT high frequency Narita cold chain hub,available
+HKG,SIN,CX7140,Every 3h,3h45m,,1400,true,true,75,low,High frequency shuttle SIN Coolport pharma zone,available
+HKG,JFK,CX7400,Once daily (01:00 UTC),16h00m,,5800,true,true,90,medium,Overnight to New York dedicated cold chain freighter,available
+HKG,LHR,CX7300,Once daily (23:30 UTC),13h30m,,5000,true,true,86,low,Overnight to London Heathrow pharma zone GDP certified,available
+HKG,FRA,CX7350,Once daily (00:30 UTC),13h00m,,4600,true,true,83,low,Via Frankfurt Lufthansa partnership CEIV Pharma,available
+HKG,ICN,CX7160,Every 3h,3h30m,,1200,true,true,74,low,Short shuttle very high frequency ICN pharma zone,available
+HKG,BOM,CX7180,Once daily (22:00 UTC),6h00m,,2200,true,true,70,medium,Overnight HKG-BOM Air India partnership,limited
+HKG,AMS,CX7360,Once daily (00:30 UTC),12h30m,,4800,true,true,84,low,HKG-Amsterdam overnight KLM partnership,available
+HKG,DXB,CX7380,Twice daily (10:00/22:00 UTC),8h30m,,3000,true,true,76,low,HKG-Dubai Emirates partnership DXB Pharma Hub,available
+HKG,CAI,CX7400,Once daily (01:00 UTC),10h00m,,3600,true,true,72,medium,HKG-Cairo EgyptAir partnership,available
+HKG,NBO,CX7420,Once daily (23:00 UTC),11h00m,,3900,true,true,72,medium,HKG-Nairobi Kenya Airways partnership,available
+HKG,DEL,CX7440,Twice daily (07:00/19:00 UTC),5h30m,,2100,true,true,74,low,HKG-Delhi Air India partnership,available
+HKG,PVG,CX7100,Every 2h,2h30m,,900,true,true,72,low,HKG-Shanghai very short high frequency,available
+HKG,GRU,CX7600,Once daily (01:00 UTC),26h00m,JFK,9200,true,false,0,high,Via New York very long-haul GRU dry ice only,limited
+NRT,SYD,JL8540,Once daily (22:00 UTC),9h30m,,3500,true,true,80,low,Overnight Tokyo-Sydney Australian TGA pre-clearance,available
+NRT,SIN,JL8560,Twice daily (10:00/22:00 UTC),7h00m,,2900,true,true,82,low,Tokyo-Singapore ANA partnership SIN Coolport GDP,available
+NRT,HKG,JL8520,Every 4h,4h00m,,1600,true,true,76,low,Shuttle HKG-NRT high frequency cold chain both ends,available
+NRT,JFK,JL8100,Twice daily (11:00/23:00 UTC),13h00m,,5200,true,true,88,low,Transpacific JAL pharma priority JFK cold chain,available
+NRT,LHR,JL8200,Once daily (10:30 UTC),12h30m,,5000,true,true,86,low,Tokyo-London BA partnership Heathrow World Cargo,available
+NRT,FRA,JL8250,Once daily (11:00 UTC),12h00m,,4700,true,true,84,low,Tokyo-Frankfurt Lufthansa partnership CEIV certified,available
+NRT,ICN,JL8400,Every 2h,2h30m,,900,true,true,72,low,Very short-haul shuttle Incheon pharma zone,available
+NRT,AMS,JL8260,Once daily (12:00 UTC),11h30m,,4800,true,true,84,low,Tokyo-Amsterdam KLM partnership Schiphol CEIV,available
+NRT,DXB,JL8280,Once daily (13:00 UTC),11h00m,,4400,true,true,82,low,Tokyo-Dubai Emirates partnership DXB Pharma Hub,available
+NRT,BOM,JL8300,Once daily (11:30 UTC),10h00m,,3800,true,true,78,medium,Tokyo-Mumbai Air India partnership,available
+NRT,PVG,JL8060,Every 4h,3h00m,,1200,true,true,74,low,Tokyo-Shanghai high frequency short-haul,available
+NRT,CAI,JL8320,Once daily (12:00 UTC),13h30m,,4800,true,true,72,medium,Tokyo-Cairo EgyptAir partnership,limited
+JFK,LHR,AA8100,Every 4h,7h00m,,2800,true,true,70,low,Transatlantic Heathrow World Cargo GDP zone,available
+JFK,FRA,LH8901,Twice daily (22:00/10:00 UTC),7h30m,,3000,true,true,72,low,JFK-Frankfurt Lufthansa freighter CEIV Pharma,available
+JFK,AMS,KL9020,Once daily (22:30 UTC),7h00m,,2900,true,true,70,low,JFK-Amsterdam KLM cargo Schiphol pharma hub,available
+JFK,ORD,AA8050,Every 3h,2h30m,,800,true,true,60,low,Domestic Chicago O'Hare pharma cold chain,available
+JFK,MIA,AA8060,Every 2h,3h00m,,650,true,true,58,low,Domestic Miami hub South America connections,available
+JFK,DXB,EK9801,Once daily (22:00 UTC),12h00m,,4000,true,true,80,low,JFK-Dubai Emirates SkyCargo DXB Pharma Hub,available
+JFK,SIN,SQ8001,Once daily (01:00 UTC),19h30m,,7000,true,true,90,medium,JFK-Singapore ultra-long-haul SIN Coolport,available
+JFK,NRT,JL8101,Once daily (13:00 UTC),13h30m,,5200,true,true,87,low,JFK-Tokyo JAL pharma priority,available
+JFK,GRU,AA8700,Twice daily (08:00/20:00 UTC),10h30m,,4200,true,false,0,medium,JFK-Sao Paulo no dedicated cold chain dry ice only,limited
+JFK,LAX,AA8070,Every 2h,5h30m,,900,true,true,62,low,Domestic transcontinental pharma cold chain,available
+JFK,CDG,AF9200,Twice daily (21:00/09:00 UTC),7h00m,,2800,true,true,70,low,JFK-Paris Air France GDP compliant CDG pharma zone,available
+ORD,JFK,UA8100,Every 2h,2h30m,,750,true,true,60,low,Domestic shuttle JFK international connections,available
+ORD,LHR,AA8200,Once daily (22:00 UTC),8h00m,,3200,true,true,72,medium,Chicago-London Heathrow pharma zone,available
+ORD,FRA,LH8920,Once daily (21:00 UTC),8h30m,,3400,true,true,74,medium,Chicago-Frankfurt overnight transatlantic,available
+ORD,LAX,UA8110,Every 3h,4h00m,,850,true,true,62,low,Domestic Chicago-LA pharma cold chain,available
+LAX,NRT,JL8550,Once daily (13:00 UTC),11h30m,,4200,true,true,82,low,LA-Tokyo JAL pharma priority Narita cold chain,available
+LAX,SYD,QF8400,Once daily (15:00 UTC),15h00m,,5400,true,true,85,low,LA-Sydney Qantas freight Australian TGA,available
+LAX,HKG,CX7450,Once daily (23:00 UTC),14h30m,,4600,true,true,82,low,LA-HKG overnight Cathay Pacific pharma,available
+LAX,JFK,AA8071,Every 2h,5h30m,,900,true,true,62,low,Domestic transcontinental JFK international,available
+LAX,SIN,SQ8100,Once daily (00:30 UTC),17h30m,,6800,true,true,90,medium,LA-Singapore ultra-long-haul SIN Coolport,available
+ICN,SIN,KE8200,Every 6h,6h30m,,2600,true,true,78,low,Seoul-Singapore CEIV Pharma certified SIN Coolport,available
+ICN,NRT,KE8100,Every 2h,2h30m,,900,true,true,72,low,Seoul-Tokyo shuttle high frequency cold chain,available
+ICN,HKG,KE8300,Every 3h,3h30m,,1300,true,true,74,low,Seoul-HKG Cathay partnership cold chain GDP,available
+ICN,SYD,KE8400,Once daily (23:00 UTC),10h00m,,3800,true,true,80,low,Overnight Seoul-Sydney Korean Air pharma,available
+ICN,LHR,KE8500,Once daily (14:00 UTC),12h00m,,5100,true,true,85,low,Seoul-London BA codeshare Heathrow pharma zone,available
+ICN,FRA,KE8600,Once daily (13:00 UTC),11h30m,,4800,true,true,83,low,Seoul-Frankfurt Lufthansa partnership CEIV,available
+ICN,JFK,KE8700,Once daily (11:00 UTC),13h30m,,5300,true,true,86,low,Seoul-JFK transpacific Korean Air pharma,available
+ICN,DXB,KE8800,Twice daily (09:00/21:00 UTC),9h30m,,3700,true,true,80,low,Seoul-Dubai Emirates partnership,available
+ICN,AMS,KE8900,Once daily (12:00 UTC),11h00m,,4700,true,true,83,low,Seoul-Amsterdam KLM partnership Schiphol CEIV,available
+ICN,PVG,KE8050,Every 3h,2h30m,,1000,true,true,72,low,Seoul-Shanghai high frequency short-haul,available
+IST,FRA,TK8100,Every 6h,3h30m,,1400,true,true,68,low,Istanbul-Frankfurt Turkish Cargo fast transfer FRA,available
+IST,DXB,TK8200,Every 4h,4h00m,,1600,true,true,70,low,Istanbul-Dubai major hub onward Asia connections,available
+IST,LHR,TK8300,Every 6h,4h00m,,1700,true,true,68,low,Istanbul-London Turkish Cargo Heathrow cargo zone,available
+IST,JFK,TK8400,Twice daily (01:00/13:00 UTC),10h30m,,3600,true,true,72,medium,Istanbul-JFK Turkish Cargo transatlantic,available
+IST,AMS,TK8500,Every 6h,3h45m,,1500,true,true,67,low,Istanbul-Amsterdam Schiphol pharma hub,available
+IST,SIN,TK8600,Once daily (00:30 UTC),10h30m,DXB,3900,true,true,75,medium,Istanbul-Singapore via Dubai DXB Pharma Hub transfer,available
+IST,NBO,TK8700,Once daily (23:00 UTC),5h30m,,2000,true,true,65,medium,Istanbul-Nairobi Turkish Cargo East Africa,available
+IST,JNB,TK8800,Once daily (22:30 UTC),9h00m,,3300,true,true,68,medium,Istanbul-Johannesburg SA pharma,available
+IST,CAI,TK8900,Every 3h,2h30m,,800,true,true,62,low,Istanbul-Cairo very frequent Middle East hub,available
+BOM,DXB,AI8100,Every 3h,3h00m,,900,true,true,65,low,Mumbai-Dubai Air India DXB Pharma Hub connections,available
+BOM,SIN,AI8200,Twice daily (01:00/13:00 UTC),5h30m,,1900,true,true,70,low,Mumbai-Singapore GDP compliant cold chain,available
+BOM,LHR,AI8300,Once daily (03:00 UTC),9h30m,,3400,true,true,72,medium,Mumbai-London overnight Heathrow pharma zone,available
+BOM,FRA,AI8400,Once daily (02:00 UTC),9h00m,,3200,true,true,70,medium,Mumbai-Frankfurt Lufthansa partnership,available
+BOM,NRT,AI8500,Once daily (01:30 UTC),10h00m,,3800,true,true,76,medium,Mumbai-Tokyo JAL partnership Narita cold chain,available
+BOM,HKG,AI8600,Twice daily (04:00/16:00 UTC),6h00m,,2300,true,true,72,low,Mumbai-HKG Cathay partnership,available
+BOM,ICN,AI8700,Once daily (03:00 UTC),9h30m,,3600,true,true,74,medium,Mumbai-Seoul Korean Air partnership,available
+BOM,AMS,AI8800,Once daily (02:30 UTC),9h30m,,3500,true,true,73,medium,Mumbai-Amsterdam KLM partnership,available
+BOM,CAI,AI8900,Twice daily (06:00/18:00 UTC),4h00m,,1400,true,true,65,low,Mumbai-Cairo EgyptAir partnership,available
+GRU,MIA,AA8710,Twice daily (06:00/18:00 UTC),9h00m,,3100,true,false,0,medium,Sao Paulo-Miami limited cold chain dry ice only US connections,limited
+GRU,JFK,AA8720,Once daily (20:00 UTC),10h30m,,3800,true,false,0,high,Sao Paulo-JFK no dedicated pharma cold chain 48h dry ice only,limited
+GRU,AMS,KL9200,Once daily (22:00 UTC),12h30m,,4500,true,false,0,high,Sao Paulo-Amsterdam limited cold chain GRU AMS fully GDP on arrival,limited
+GRU,LHR,BA9100,Once daily (21:00 UTC),12h00m,,4400,true,false,0,high,Sao Paulo-London no cold chain GRU advance dry ice,limited
+GRU,MXP,AZ9100,Once daily (20:30 UTC),12h30m,,4600,true,false,0,high,Sao Paulo-Milan limited pharma handling GRU,limited
+NBO,DXB,EK9801,Twice daily (07:00/19:00 UTC),4h30m,,1500,true,true,68,low,Nairobi-Dubai major hub onward connections,available
+NBO,AMS,KL9300,Once daily (21:30 UTC),9h00m,,3300,true,true,70,medium,Nairobi-Amsterdam KLM cargo,available
+NBO,LHR,BA9200,Once daily (22:00 UTC),8h30m,,3100,true,true,68,medium,Nairobi-London overnight BA cargo Heathrow,available
+NBO,FRA,LH9100,Once daily (21:00 UTC),8h00m,,3000,true,true,68,medium,Nairobi-Frankfurt overnight Lufthansa,available
+NBO,IST,TK9100,Once daily (23:30 UTC),6h00m,,2200,true,true,65,medium,Nairobi-Istanbul Turkish Cargo onward Europe,available
+SYD,SIN,SQ7441,Every 4h,8h00m,,2900,true,true,78,low,Sydney-Singapore reverse SIN Coolport CEIV,available
+SYD,HKG,CX7121,Twice daily (10:00/22:00 UTC),9h30m,,3400,true,true,80,low,Sydney-HKG Cathay Pacific pharma freighter,available
+SYD,NRT,JL8541,Once daily (09:00 UTC),10h00m,,3600,true,true,80,low,Sydney-Tokyo JAL pharma priority,available
+SYD,LAX,QF8401,Once daily (12:00 UTC),15h30m,,5500,true,true,85,low,Sydney-LA Qantas freight TGA compliant,available
+SYD,DXB,EK9901,Once daily (16:00 UTC),14h30m,,5900,true,true,88,low,Sydney-Dubai Emirates SkyCargo DXB hub,available
+CAI,FRA,LH9200,Every 6h,4h30m,,1800,true,true,65,low,Cairo-Frankfurt EgyptAir partnership,available
+CAI,DXB,EK9801,Every 4h,2h30m,,800,true,true,62,low,Cairo-Dubai very high frequency,available
+CAI,AMS,KL9400,Twice daily,4h45m,,1900,true,true,66,low,Cairo-Amsterdam KLM partnership,available
+CAI,IST,TK9200,Every 4h,2h30m,,850,true,true,62,low,Cairo-Istanbul Turkish Cargo very frequent,available
+JNB,DXB,EK9742,Once daily (02:00 UTC),8h00m,,3100,true,true,72,low,Johannesburg-Dubai Emirates hub onward,available
+JNB,AMS,KL9500,Once daily (21:00 UTC),11h30m,,4100,true,true,72,medium,Johannesburg-Amsterdam KLM cargo,available
+JNB,LHR,BA9300,Once daily (20:30 UTC),11h00m,,3900,true,true,70,medium,Johannesburg-London BA cargo Heathrow,available
+JNB,FRA,LH9300,Once daily (20:00 UTC),10h30m,,3700,true,true,70,medium,Johannesburg-Frankfurt overnight Lufthansa,available
+DOH,SIN,QR9200,Every 6h,7h00m,,2700,true,true,78,low,Doha-Singapore QR pharma certified SIN Coolport,available
+DOH,LHR,QR9100,Every 6h,7h30m,,2600,true,true,74,low,Doha-London Heathrow World Cargo GDP,available
+DOH,FRA,QR9110,Every 8h,6h00m,,2200,true,true,72,low,Doha-Frankfurt Lufthansa partnership CEIV,available
+DOH,JFK,QR9300,Twice daily (02:00/14:00 UTC),14h00m,,4400,true,true,80,medium,Doha-JFK transatlantic QR pharma,available
+DOH,NRT,QR9400,Once daily (03:00 UTC),10h00m,,3900,true,true,82,low,Doha-Tokyo JAL partnership,available
+DOH,DXB,EK9761,Every 2h,1h00m,,400,true,true,58,low,Doha-Dubai shuttle very high frequency hub transfer,available
+ZRH,FRA,LX8100,Every 3h,0h45m,,400,true,true,55,low,Very short shuttle immediate connection to FRA hub,available
+ZRH,LHR,LX8200,Every 4h,2h00m,,900,true,true,62,low,Zurich-London Swiss Cargo Heathrow connections,available
+ZRH,SIN,LX8300,Once daily (22:00 UTC),12h30m,,4400,true,true,82,low,Zurich-Singapore direct CEIV Pharma SIN Coolport,available
+ZRH,DXB,LX8400,Twice daily (10:00/22:00 UTC),6h00m,,2100,true,true,72,low,Zurich-Dubai Emirates partnership Pharma Hub,available
+ZRH,AMS,LX8500,Every 3h,1h30m,,650,true,true,58,low,Zurich-Amsterdam Schiphol pharma hub connection,available
+CDG,SIN,AF7200,Once daily (23:00 UTC),12h30m,,4500,true,true,82,low,Paris-Singapore Air France CEIV Pharma SIN Coolport,available
+CDG,JFK,AF9201,Every 6h,7h30m,,2900,true,true,70,low,Paris-JFK Air France frequent transatlantic,available
+CDG,DXB,EK9721,Twice daily (08:00/20:00 UTC),7h00m,,2500,true,true,74,low,Paris-Dubai Emirates partnership DXB Hub,available
+CDG,LHR,AF4100,Every 2h,1h00m,,700,true,true,58,low,Paris-London shuttle Heathrow pharma zone,available
+CDG,FRA,AF4200,Every 2h,1h15m,,650,true,true,57,low,Paris-Frankfurt shuttle CEIV Pharma hub,available
+DEL,DXB,AI8101,Every 3h,3h00m,,1000,true,true,67,low,Delhi-Dubai major hub onward connections,available
+DEL,SIN,AI8201,Twice daily (02:00/14:00 UTC),5h00m,,1800,true,true,72,low,Delhi-Singapore SIN Coolport GDP compliant,available
+DEL,FRA,LH9400,Once daily (01:00 UTC),8h00m,,3100,true,true,74,medium,Delhi-Frankfurt Lufthansa overnight CEIV,available
+DEL,LHR,AI8301,Once daily (02:30 UTC),9h00m,,3300,true,true,72,medium,Delhi-London overnight Heathrow pharma,available
+DEL,HKG,AI8601,Twice daily (05:00/17:00 UTC),5h30m,,2100,true,true,72,low,Delhi-HKG Cathay partnership,available
+PVG,NRT,JL8061,Every 3h,2h30m,,1000,true,true,72,low,Shanghai-Tokyo high frequency short-haul,available
+PVG,HKG,CX7101,Every 2h,2h30m,,900,true,true,72,low,Shanghai-HKG very high frequency,available
+PVG,SIN,SQ7251,Every 4h,4h30m,,1700,true,true,75,low,Shanghai-Singapore SIN Coolport,available
+PVG,FRA,LH8381,Once daily (14:00 UTC),10h30m,,3900,true,true,80,low,Shanghai-Frankfurt direct Lufthansa CEIV,available
+PVG,LHR,BA9400,Once daily (13:30 UTC),11h00m,,4100,true,true,80,low,Shanghai-London BA cargo Heathrow pharma,available
+MIA,JFK,AA8061,Every 2h,3h00m,,650,true,true,60,low,Miami-JFK international connections hub,available
+MIA,GRU,AA8711,Twice daily (07:00/19:00 UTC),9h30m,,3200,true,false,0,medium,Miami-Sao Paulo dry ice only GRU,limited
+MIA,LHR,AA8210,Once daily (22:00 UTC),9h00m,,3400,true,true,70,medium,Miami-London overnight Heathrow pharma,available
